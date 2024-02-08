@@ -1,0 +1,15 @@
+.form-group:not(:first-of-type) {
+    margin-top: 15px;
+}
+.form-group label{
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group .form-control {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    margin-top: 15px;
+}

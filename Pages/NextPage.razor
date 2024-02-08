@@ -1,0 +1,17 @@
+@page "/nextpage/{Name}/{Email}/{PhoneNumber}"
+
+<h3>Submitted Information</h3>
+<p><strong>Name:</strong> @Name</p>
+<p><strong>Email:</strong> @Email</p>
+<p><strong>Phone Number:</strong> @PhoneNumber</p>
+
+@code {
+    [Parameter]
+    public string Name { get; set; }
+
+    [Parameter]
+    public string Email { get; set; }
+
+    [Parameter]
+    public string PhoneNumber { get; set; }
+}

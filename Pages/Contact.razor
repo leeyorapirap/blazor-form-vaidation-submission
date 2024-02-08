@@ -1,0 +1,50 @@
+@page "/contact"
+@using BlazorInputValidatione.Data
+@inject IJSRuntime JSRuntime
+@inject NavigationManager UriHelper
+
+<EditForm Model="contactInfo" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <h3>Contact Form:</h3>
+
+    <div class="form-group">
+        <label for="Name">Name:</label>
+        <InputText id="Name" @bind-Value="contactInfo.Name" class="form-control" />
+        <ValidationMessage For="@(() => contactInfo.Name)" />
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email:</label>
+        <InputText id="Email" @bind-Value="contactInfo.Email" class="form-control" />
+        <ValidationMessage For="@(() => contactInfo.Email)" />
+    </div>
+
+    <div class="form-group">
+        <label for="PhoneNumber">Phone Number:</label>
+        <InputText id="PhoneNumber" @bind-Value="contactInfo.PhoneNumber" class="form-control" />
+        <ValidationMessage For="@(() => contactInfo.PhoneNumber)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public string Name { get; set; }
+
+    [Parameter]
+    public string Email { get; set; }
+
+    [Parameter]
+    public string PhoneNumber { get; set; }
+    
+    private ContactInfo contactInfo = new ContactInfo();
+
+    private void HandleValidSubmit()
+    {
+        var url = $"/nextpage/{Uri.EscapeDataString(contactInfo.Name)}/{Uri.EscapeDataString(contactInfo.Email)}/{Uri.EscapeDataString(contactInfo.PhoneNumber)}";
+        UriHelper.NavigateTo(url);
+    }
+}

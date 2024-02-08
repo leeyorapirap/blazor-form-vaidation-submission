@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorInputValidatione
+build_property.RootNamespace = BlazorInputValidatione
+build_property.ProjectDir = /Users/leeyorapirap/Projects/BlazorInputValidatione/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/leeyorapirap/Projects/BlazorInputValidatione
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-71phgeaxca
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-hdvfqoyujq
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/Pages/NextPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmV4dFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dlo2k2yo40
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-uvp8w6at1a
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-brhq42dc7s
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeyorapirap/Projects/BlazorInputValidatione/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
